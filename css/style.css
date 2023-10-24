@@ -8,6 +8,18 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* 
+    GENERAL
+*/
+body {
+    background-color: #f6f8f9;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
 ul {
     list-style: none;
 }
@@ -19,19 +31,6 @@ ol {
 
 li {
     padding: 10px;
-}
-
-
-/* 
-    GENERAL
-*/
-body {
-    background-color: #f6f8f9;
-}
-
-.container {
-    width: 75%;
-    margin: 0 auto;
 }
 
 /* 
@@ -79,4 +78,23 @@ h1 {
 .not-done {
     border-color: red;
     color: red;
+}
+
+.tag {
+    width: 75px;
+    height: 25px;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    background-color: grey;
+    border: 1px solid grey;
+    text-align: center;
+    font-size: smaller;
+    vertical-align: middle;
+    line-height: 25px;
+}
+
+.editorial {
+    background-color: #45abea;
+    border-color: #45abea;
 }
