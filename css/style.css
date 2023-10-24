@@ -54,14 +54,36 @@ h1 {
     MAIN
 */
 
-
+/* 
+    Bottoni superiori
+*/
 #button-container {
     background-color: white;
-    padding: 10px;
+    padding: 10px 10px 10px 40px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin-bottom: 5px;
 }
+
+#task-button {
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid #45abea;
+    background-color: #45abea;
+    color: white;
+}
+
+#section-button {
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid lightgrey;
+    color: lightgrey;
+    background-color: transparent;
+}
+
+/* 
+    Lista
+*/
 
 #list-container {
     background-color: white;
@@ -91,6 +113,9 @@ h1 {
     color: red;
 }
 
+/* 
+    Tag
+*/
 .tag {
     width: 75px;
     height: 25px;
